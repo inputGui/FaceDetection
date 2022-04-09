@@ -9,5 +9,16 @@ Mediapipe allows for end-to-end acceleration, it has ready-to-use solutions and 
 * Easy to implement into your code
 * Organized and clean code to allow for enhanced readability 
 
+## How to use
+
+Webcam
+```python
+Video(confidence_input=0.5, draw=True, camera=True)
+```
+Monitor
+```python
+Video(confidence_input=0.5, draw=True, camera=False, dimensions=(50, 60, 500,500))
+```
+
 ## Images
 <img src="images/faces1.png" width="200" >

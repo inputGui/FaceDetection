@@ -7,9 +7,8 @@ import mediapipe as mp
 from threading import Thread
 
 """
-Personal assignment: Find faces in video.
+Find faces in video or camera
 """
-
 
 class FaceDetector:
     def __init__(self, minDetectionConf=0.5, draw=True):

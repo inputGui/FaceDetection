@@ -8,6 +8,7 @@ Mediapipe allows for end-to-end acceleration, it has ready-to-use solutions and 
 
 * Easy to implement into your code
 * Organized and clean code to allow for enhanced readability 
+* Separate Thread to prevent blocking
 
 ## How to use
 

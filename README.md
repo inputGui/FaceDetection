@@ -13,11 +13,13 @@ Mediapipe allows for end-to-end acceleration, it has ready-to-use solutions and 
 
 Webcam
 ```python
-Video(confidence_input=0.5, draw=True, camera=True)
+import face_detection
+face_detection.Video(confidence_input=0.5, draw=True, camera=True)
 ```
 Monitor
 ```python
-Video(confidence_input=0.5, draw=True, camera=False, dimensions=(50, 60, 500,500))
+import face_detection
+face_detection.Video(confidence_input=0.5, draw=True, camera=False, dimensions=(50, 60, 500,500))
 ```
 
 ## Images

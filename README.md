@@ -6,3 +6,5 @@ Implements Google machine learning algorithm to detect faces on your screen.
 * Organized and clean code to allow for enhanced readability 
 
 ## Images
+
+![](images/faces1.png)
